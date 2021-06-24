@@ -33,6 +33,7 @@ public class LoginTest {
         URL url = new URL("http://127.0.0.1:4723/wd/hub");
         driver = new RemoteWebDriver(url, cap);
         System.out.println("devices has started!!!!");
+        System.out.println("diners club mobile app is activated!");
     }
 
     public static void LoginTest() throws InterruptedException {
